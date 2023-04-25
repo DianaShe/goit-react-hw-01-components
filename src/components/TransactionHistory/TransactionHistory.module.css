@@ -1,0 +1,21 @@
+.transactionHistory {
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.tableHead {
+  text-transform: uppercase;
+  width: 200px;
+  background-color: lightgreen;
+  color: #fff;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+.capitalized {
+    text-transform: capitalize;
+}

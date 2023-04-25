@@ -1,0 +1,29 @@
+
+.title {
+   font-size: 32px;
+   text-transform: uppercase;
+   text-align: center; 
+}
+
+.statList {
+    display: flex;
+}
+
+.item {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 80px;
+    text-align: center;
+    background-color: getRandomHexColor();
+}
+
+.label {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.percentage {
+    display: block;
+    font-size: 24px;
+}
